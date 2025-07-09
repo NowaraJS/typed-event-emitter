@@ -6,13 +6,14 @@
   "type": "module",
   "license": "MIT",
   "keywords": [
-    "typescript",
-    "event-emitter",
-    "typed-events",
-    "type-safe",
+    "bun",
     "event-driven",
-    "nodejs",
-    "bun"
+    "event-emitter",
+    "node",
+    "nowarajs",
+    "type-safe",
+    "typed-events",
+    "typescript"
   ],
   "scripts": {
     "build": "bun builder.ts",
