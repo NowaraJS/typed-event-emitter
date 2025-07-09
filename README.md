@@ -96,7 +96,7 @@ input.emit('click', 'left', 50, 75);
 
 You can find the complete API reference documentation for `TypedEventEmitter` at:
 
-- [Reference Documentation](https://komiriko.github.io/komi-logger)
+- [Reference Documentation](https://nowarajs.github.io/typed-event-emitter/)
 
 ## ⚖️ License
 
