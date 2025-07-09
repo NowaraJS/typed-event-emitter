@@ -26,6 +26,7 @@ bun.lock
 # === Project-specific folders ===
 source/
 test/
+sandbox/
 
 # === Core project files ===
 README.md
