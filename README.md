@@ -94,23 +94,9 @@ input.emit('click', 'left', 50, 75);
 
 ## 📚 API Reference
 
-The `TypedEventEmitter` class extends Node.js's `EventEmitter` with the following typed methods:
+You can find the complete API reference documentation for `TypedEventEmitter` at:
 
-### Methods
-
-- `emit<K>(event: K, ...args: Events[K]): boolean` - Emit a typed event
-- `on<K>(event: K, listener: (...args: Events[K]) => void): this` - Add a typed event listener
-- `once<K>(event: K, listener: (...args: Events[K]) => void): this` - Add a one-time typed event listener
-- `off<K>(event: K, listener: (...args: Events[K]) => void): this` - Remove a typed event listener
-- `addListener<K>(event: K, listener: (...args: Events[K]) => void): this` - Alias for `on`
-- `removeListener<K>(event: K, listener: (...args: Events[K]) => void): this` - Alias for `off`
-- `listenerCount<K>(event: K): number` - Get the number of listeners for an event
-- `listeners<K>(event: K): ((...args: Events[K]) => void)[]` - Get all listeners for an event
-- `rawListeners<K>(event: K): ((...args: Events[K]) => void)[]` - Get raw listeners for an event
-- `prependListener<K>(event: K, listener: (...args: Events[K]) => void): this` - Add listener to beginning
-- `prependOnceListener<K>(event: K, listener: (...args: Events[K]) => void): this` - Add one-time listener to beginning
-
-All methods provide full TypeScript intellisense and compile-time type checking.
+- [Reference Documentation](https://komiriko.github.io/komi-logger)
 
 ## ⚖️ License
 
