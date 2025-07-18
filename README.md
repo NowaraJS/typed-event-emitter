@@ -3,14 +3,14 @@
 ## 📌 Table of Contents
 
 - [🎯 TypedEventEmitter](#-typedeventemitter)
-  - [📌 Table of Contents](#-table-of-contents)
-  - [📝 Description](#-description)
-  - [✨ Features](#-features)
-  - [🔧 Installation](#-installation)
-  - [⚙️ Usage](#-usage)
-  - [📚 API Reference](#-api-reference)
-  - [⚖️ License](#-license)
-  - [📧 Contact](#-contact)
+	- [📌 Table of Contents](#-table-of-contents)
+	- [📝 Description](#-description)
+	- [✨ Features](#-features)
+	- [🔧 Installation](#-installation)
+	- [⚙️ Usage](#-usage)
+	- [📚 API Reference](#-api-reference)
+	- [⚖️ License](#-license)
+	- [📧 Contact](#-contact)
 
 ## 📝 Description
 
@@ -42,10 +42,10 @@ import { TypedEventEmitter } from '@nowarajs/typed-event-emitter';
 
 // Define your event map
 interface MyEvents {
-  userLogin: [{ userId: string; timestamp: Date }];
-  userLogout: [{ userId: string }];
-  dataUpdate: [{ id: number; data: any }];
-  error: [Error];
+	userLogin: [{ userId: string; timestamp: Date }];
+	userLogout: [{ userId: string }];
+	dataUpdate: [{ id: number; data: any }];
+	error: [Error];
 }
 
 // Create a typed event emitter
@@ -53,14 +53,14 @@ const emitter = new TypedEventEmitter<MyEvents>();
 
 // Type-safe event listening
 emitter.on('userLogin', (payload) => {
-  // payload is automatically typed as { userId: string; timestamp: Date }
-  console.log(`User ${payload.userId} logged in at ${payload.timestamp}`);
+	// payload is automatically typed as { userId: string; timestamp: Date }
+	console.log(`User ${payload.userId} logged in at ${payload.timestamp}`);
 });
 
 // Type-safe event emission
 emitter.emit('userLogin', { 
-  userId: 'user123', 
-  timestamp: new Date() 
+	userId: 'user123', 
+	timestamp: new Date() 
 });
 ```
 
@@ -71,20 +71,20 @@ import { TypedEventEmitter } from '@nowarajs/typed-event-emitter';
 
 // Multiple parameters
 interface Events {
-  move: [x: number, y: number];
-  click: [button: 'left' | 'right', x: number, y: number];
-  keypress: [key: string, modifiers: string[]];
+	move: [x: number, y: number];
+	click: [button: 'left' | 'right', x: number, y: number];
+	keypress: [key: string, modifiers: string[]];
 }
 
 const input = new TypedEventEmitter<Events>();
 
 // Multiple parameters are fully typed
 input.on('move', (x, y) => {
-  console.log(`Mouse moved to ${x}, ${y}`);
+	console.log(`Mouse moved to ${x}, ${y}`);
 });
 
 input.on('click', (button, x, y) => {
-  console.log(`${button} click at ${x}, ${y}`);
+	console.log(`${button} click at ${x}, ${y}`);
 });
 
 // Emit with multiple arguments
