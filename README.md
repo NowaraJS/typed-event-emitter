@@ -104,7 +104,7 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 ## 📧 Contact
 
-NowaraJS - [GitHub Organization](https://github.com/NowaraJS)
+- GitHub: [NowaraJS](https://github.com/NowaraJS)
+- Package: [@nowarajs/singleton-manager](https://www.npmjs.com/package/@nowarajs/typed-event-emitter)
 
-[Project Link](https://github.com/NowaraJS/typed-event-emitter)
 
