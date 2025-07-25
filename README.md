@@ -22,7 +22,7 @@
 
 - 🔒 **Type Safety**: Full TypeScript support with strongly typed event names and payloads
 - 🧩 **Generic Design**: Define custom event maps for your specific use cases
-- 🔄 **Familiar API**: Extends Node.js EventEmitter with the same familiar methods
+- 🔄 **Familiar API**: Extends EventEmitter with the same familiar methods
 - 📦 **Zero Dependencies**: No external runtime dependencies
 - 🚀 **Modern**: Built with modern TypeScript and supports ESM
 - 🧪 **Well Tested**: Comprehensive test suite included
