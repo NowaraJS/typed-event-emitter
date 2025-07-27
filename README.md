@@ -1,4 +1,4 @@
-# 🎯 TypedEventEmitter
+# 🎯 NowaraJS - TypedEventEmitter
 
 ## 📌 Table of Contents
 
