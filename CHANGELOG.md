@@ -1,4 +1,20 @@
 
+## v1.1.10
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.9...v1.1.10)
+
+### 📖 Documentation
+
+- **📖:** [Update project title in README] ([6c4e312](https://github.com/NowaraJS/typed-event-emitter/commit/6c4e312))
+
+### 📦 Build
+
+- **📦:** [Update devDependencies for eslint and eslint/js] ## Build Changes - Updated `@eslint/js` from `^9.31.0` to `^9.32.0` - Updated `eslint` from `^9.31.0` to `^9.32.0` ([b3a9b38](https://github.com/NowaraJS/typed-event-emitter/commit/b3a9b38))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.9
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.8...v1.1.9)
