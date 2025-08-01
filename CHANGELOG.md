@@ -1,4 +1,24 @@
 
+## v1.1.11
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.10...v1.1.11)
+
+### 📖 Documentation
+
+- **📖:** [Add copilot instructions for development workflow] ([93eb375](https://github.com/NowaraJS/typed-event-emitter/commit/93eb375))
+
+### 📦 Build
+
+- **📦:** [Update TypeScript version in package.json] ([184083a](https://github.com/NowaraJS/typed-event-emitter/commit/184083a))
+
+### 🤖 CI
+
+- **🤖:** [Add Copilot setup workflow for automated steps] ([b628a11](https://github.com/NowaraJS/typed-event-emitter/commit/b628a11))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.10
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.9...v1.1.10)
