@@ -1,4 +1,24 @@
 
+## v1.1.12
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.11...v1.1.12)
+
+### 🔧 Fixes
+
+- **🔧:** [Update include path in tsconfig.build.json] ([199635b](https://github.com/NowaraJS/typed-event-emitter/commit/199635b))
+
+### 📦 Build
+
+- **📦:** [Update devDependencies in package.json] - Updated @eslint/js from ^9.32.0 to ^9.33.0 - Updated @stylistic/eslint-plugin from ^5.2.2 to ^5.2.3 - Updated @types/bun from ^1.2.19 to ^1.2.20 - Updated eslint from ^9.32.0 to ^9.33.0 - Updated typescript-eslint from ^8.38.0 to ^8.39.0 ([5977ab3](https://github.com/NowaraJS/typed-event-emitter/commit/5977ab3))
+
+### 🤖 CI
+
+- **🤖:** [Add CI workflows for build, test, and deployment processes] ([f911f02](https://github.com/NowaraJS/typed-event-emitter/commit/f911f02))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.11
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.10...v1.1.11)
