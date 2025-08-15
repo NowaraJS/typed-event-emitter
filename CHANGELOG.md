@@ -1,4 +1,20 @@
 
+## v1.1.13
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.12...v1.1.13)
+
+### 📖 Documentation
+
+- **📖:** [Update copilot instructions for clarity and structure] ([bca4df7](https://github.com/NowaraJS/typed-event-emitter/commit/bca4df7))
+
+### 📦 Build
+
+- **📦:** [Update typescript-eslint dependency version] ([5e90d46](https://github.com/NowaraJS/typed-event-emitter/commit/5e90d46))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.12
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.11...v1.1.12)
