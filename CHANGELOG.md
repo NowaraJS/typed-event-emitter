@@ -1,4 +1,24 @@
 
+## v1.1.14
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.13...v1.1.14)
+
+### 📖 Documentation
+
+- **📖:** [Add contributing guidelines to the repository] ([01eef7e](https://github.com/NowaraJS/typed-event-emitter/commit/01eef7e))
+- **📖:** [Add Contributor Covenant Code of Conduct] ([cff7440](https://github.com/NowaraJS/typed-event-emitter/commit/cff7440))
+- **📖:** [Add Security Policy documentation] ([3c4f46d](https://github.com/NowaraJS/typed-event-emitter/commit/3c4f46d))
+
+### 🦉 Chore
+
+- **🦉:** [Update contact email in issue template] ([c68557f](https://github.com/NowaraJS/typed-event-emitter/commit/c68557f))
+- **🦉:** [rename MIT License file with explicit .md] ([a93bc36](https://github.com/NowaraJS/typed-event-emitter/commit/a93bc36))
+- **🦉:** [Update package.json dependencies and repository info] ([e73c161](https://github.com/NowaraJS/typed-event-emitter/commit/e73c161))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.13
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.12...v1.1.13)
