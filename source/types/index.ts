@@ -1,1 +1,1 @@
-export type { EventMap } from './eventMap';
+export type { EventMap } from './event-map';

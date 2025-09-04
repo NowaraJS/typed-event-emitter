@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 
-import type { EventMap } from './types/eventMap';
+import type { EventMap } from './types/event-map';
 
 /**
  * A generic event emitter class that allows for type-safe event handling.
