@@ -1,7 +1,7 @@
 import { describe, expect, mock, test } from 'bun:test';
 
-import { TypedEventEmitter } from '#/typedEventEmitter';
-import type { EventMap } from '#/types/eventMap';
+import { TypedEventEmitter } from '#/typed-event-emitter';
+import type { EventMap } from '#/types/event-map';
 
 /**
 * Test data constants for consistent testing across all test suites.
