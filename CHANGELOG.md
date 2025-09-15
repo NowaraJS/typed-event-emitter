@@ -1,4 +1,16 @@
 
+## v1.1.17
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.16...v1.1.17)
+
+### 📦 Build
+
+- **📦:** [Update dependencies] ([26c8975](https://github.com/NowaraJS/typed-event-emitter/commit/26c8975))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.16
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.15...v1.1.16)
