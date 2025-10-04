@@ -1,4 +1,28 @@
 
+## v1.1.19
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.18...v1.1.19)
+
+### 📦 Build
+
+- **📦:** [Update devDependencies to latest versions] - Updated `@eslint/js` from `^9.36.0` to `^9.37.0` - Updated `@types/bun` from `^1.2.22` to `^1.2.23` - Updated `eslint` from `^9.36.0` to `^9.37.0` - Updated `typescript` from `^5.9.2` to `^5.9.3` - Updated `typescript-eslint` from `^8.44.1` to `^8.45.0` ([a45575a](https://github.com/NowaraJS/typed-event-emitter/commit/a45575a))
+
+### 🦉 Chore
+
+- **🦉:** [Remove Dependabot configuration file] ([f409bf3](https://github.com/NowaraJS/typed-event-emitter/commit/f409bf3))
+
+### 🧪 Tests
+
+- **🧪:** [Refactor tests to use concurrent execution for efficiency] ([ac0146f](https://github.com/NowaraJS/typed-event-emitter/commit/ac0146f))
+
+### 🤖 CI
+
+- **🤖:** [Refactor CI/CD workflows and add Bun setup actions] ([060d024](https://github.com/NowaraJS/typed-event-emitter/commit/060d024))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.18
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.17...v1.1.18)
