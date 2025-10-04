@@ -49,9 +49,9 @@ function createEmitter<TEvents extends EventMap>(): TypedEventEmitter<TEvents> {
 	return new TypedEventEmitter<TEvents>();
 }
 
-describe('TypedEventEmitter', (): void => {
-	describe('Core Event Emission and Listening', (): void => {
-		describe('emit and on', (): void => {
+describe.concurrent('TypedEventEmitter', (): void => {
+	describe.concurrent('Core Event Emission and Listening', (): void => {
+		describe.concurrent('emit and on', (): void => {
 			test('should emit an event with no payload', (): void => {
 				const emitter = createEmitter<NoPayloadEventMap>();
 				const mockListener = mock();
@@ -103,7 +103,7 @@ describe('TypedEventEmitter', (): void => {
 			});
 		});
 
-		describe('once', (): void => {
+		describe.concurrent('once', (): void => {
 			test('should listen to an event only once', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const mockListener = mock();
@@ -135,8 +135,8 @@ describe('TypedEventEmitter', (): void => {
 		});
 	});
 
-	describe('Listener Management', (): void => {
-		describe('addListener', (): void => {
+	describe.concurrent('Listener Management', (): void => {
+		describe.concurrent('addListener', (): void => {
 			test('should add a listener for an event', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const mockListener = mock();
@@ -175,7 +175,7 @@ describe('TypedEventEmitter', (): void => {
 			});
 		});
 
-		describe('removeListener', (): void => {
+		describe.concurrent('removeListener', (): void => {
 			test('should remove a specific listener', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const firstListener = mock();
@@ -205,7 +205,7 @@ describe('TypedEventEmitter', (): void => {
 			});
 		});
 
-		describe('off', (): void => {
+		describe.concurrent('off', (): void => {
 			test('should remove a specific listener (alias for removeListener)', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const firstListener = mock();
@@ -246,8 +246,8 @@ describe('TypedEventEmitter', (): void => {
 		});
 	});
 
-	describe('Listener Introspection', (): void => {
-		describe('listenerCount', (): void => {
+	describe.concurrent('Listener Introspection', (): void => {
+		describe.concurrent('listenerCount', (): void => {
 			test('should return the number of listeners for an event', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const firstListener = mock();
@@ -272,7 +272,7 @@ describe('TypedEventEmitter', (): void => {
 			});
 		});
 
-		describe('listeners', (): void => {
+		describe.concurrent('listeners', (): void => {
 			test('should return the listeners for an event', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const firstListener = mock();
@@ -313,7 +313,7 @@ describe('TypedEventEmitter', (): void => {
 			});
 		});
 
-		describe('rawListeners', (): void => {
+		describe.concurrent('rawListeners', (): void => {
 			test('should return the raw listeners for an event', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const firstListener = mock();
@@ -356,8 +356,8 @@ describe('TypedEventEmitter', (): void => {
 		});
 	});
 
-	describe('Advanced Listener Management', (): void => {
-		describe('prependListener', (): void => {
+	describe.concurrent('Advanced Listener Management', (): void => {
+		describe.concurrent('prependListener', (): void => {
 			test('should add a listener to the beginning of the listeners array', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const firstListener = mock();
@@ -401,7 +401,7 @@ describe('TypedEventEmitter', (): void => {
 			});
 		});
 
-		describe('prependOnceListener', (): void => {
+		describe.concurrent('prependOnceListener', (): void => {
 			test('should add a one-time listener to the beginning of the listeners array', (): void => {
 				const emitter = createEmitter<StringEventMap>();
 				const permanentListener = mock();
@@ -469,7 +469,7 @@ describe('TypedEventEmitter', (): void => {
 		});
 	});
 
-	describe('Edge Cases and Error Handling', (): void => {
+	describe.concurrent('Edge Cases and Error Handling', (): void => {
 		test('should handle events with no listeners gracefully', (): void => {
 			const emitter = createEmitter<StringEventMap>();
 
