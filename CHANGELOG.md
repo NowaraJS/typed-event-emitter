@@ -1,4 +1,20 @@
 
+## v1.1.22
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.21...v1.1.22)
+
+### 📖 Documentation
+
+- **📖:** [Update README for usage sections] ([94107a3](https://github.com/NowaraJS/typed-event-emitter/commit/94107a3))
+
+### 🦉 Chore
+
+- **🦉:** [Add semver field to changelog types] ([15c732e](https://github.com/NowaraJS/typed-event-emitter/commit/15c732e))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.21
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.20...v1.1.21)
