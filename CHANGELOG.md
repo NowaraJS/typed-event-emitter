@@ -1,4 +1,20 @@
 
+## v1.1.20
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.19...v1.1.20)
+
+### 🧹 Refactors
+
+- **🧹:** [Enhance ESLint configuration for better code quality] ([cb5fcc6](https://github.com/NowaraJS/typed-event-emitter/commit/cb5fcc6))
+
+### 📦 Build
+
+- **📦:** [Update devDependencies for improved compatibility] ([2a9f370](https://github.com/NowaraJS/typed-event-emitter/commit/2a9f370))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.19
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.18...v1.1.19)
