@@ -8,6 +8,8 @@
 	- [✨ Features](#-features)
 	- [🔧 Installation](#-installation)
 	- [⚙️ Usage](#-usage)
+		- [Basic Usage](#basic-usage)
+		- [Advanced Usage](#advanced-usage)
 	- [📚 API Reference](#-api-reference)
 	- [⚖️ License](#-license)
 	- [📧 Contact](#-contact)
