@@ -1,4 +1,24 @@
 
+## v1.1.23
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.22...v1.1.23)
+
+### 📦 Build
+
+- **📦:** [Update devDependencies to latest versions] ([fd701bd](https://github.com/NowaraJS/typed-event-emitter/commit/fd701bd))
+
+### 🦉 Chore
+
+- **🦉:** [Update .gitignore to include .zed directory] ([7a94d9c](https://github.com/NowaraJS/typed-event-emitter/commit/7a94d9c))
+
+### 🤖 CI
+
+- **🤖:** [Rename CI workflow from main-ci to main-test] ([0d871fb](https://github.com/NowaraJS/typed-event-emitter/commit/0d871fb))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.22
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.21...v1.1.22)
