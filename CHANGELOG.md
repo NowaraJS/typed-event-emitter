@@ -1,4 +1,16 @@
 
+## v1.1.24
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.23...v1.1.24)
+
+### 📖 Documentation
+
+- **📖:** [Update readme] ([5c1ccdb](https://github.com/NowaraJS/typed-event-emitter/commit/5c1ccdb))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.23
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.22...v1.1.23)
