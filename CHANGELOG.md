@@ -1,4 +1,16 @@
 
+## v1.1.25
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.24...v1.1.25)
+
+### 📦 Build
+
+- **📦:** [Update devDependencies for ESLint and TypeScript] - Updated @eslint/js from ^9.38.0 to ^9.39.1 - Updated @types/bun from ^1.3.0 to ^1.3.2 - Updated eslint from ^9.38.0 to ^9.39.1 - Updated globals from ^16.4.0 to ^16.5.0 - Updated typescript-eslint from ^8.46.2 to ^8.46.4 These updates ensure compatibility with the latest features and improvements in the respective packages. ([87c7234](https://github.com/NowaraJS/typed-event-emitter/commit/87c7234))
+
+### ❤️ Contributors
+
+- Komiroko <komiriko@pm.me>
+
 ## v1.1.24
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.23...v1.1.24)
