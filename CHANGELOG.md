@@ -1,4 +1,32 @@
 
+## v1.1.26
+
+[compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.25...v1.1.26)
+
+### 📖 Documentation
+
+- **📖:** [Update README] ([e28ebe1](https://github.com/NowaraJS/typed-event-emitter/commit/e28ebe1))
+
+### 📦 Build
+
+- **📦:** [Update devDependencies for ESLint and TypeScript] - Updated @eslint/js from ^9.39.1 to ^9.39.2 - Updated @stylistic/eslint-plugin from ^5.5.0 to ^5.7.0 - Updated @types/bun from ^1.3.2 to ^1.3.5 - Updated eslint from ^9.39.1 to ^9.39.2 - Updated globals from ^16.5.0 to ^17.0.0 - Updated typescript-eslint from ^8.46.4 to ^8.52.0 ([c3cba7b](https://github.com/NowaraJS/typed-event-emitter/commit/c3cba7b))
+
+### 🦉 Chore
+
+- **🦉:** [Add new agents for code review, documentation, performance, security, and testing] ([859dfb9](https://github.com/NowaraJS/typed-event-emitter/commit/859dfb9))
+
+### 🎨 Styles
+
+- **🎨:** [update formatting in .gitignore and .npmignore files] ([628cdc7](https://github.com/NowaraJS/typed-event-emitter/commit/628cdc7))
+
+### 🤖 CI
+
+- **🤖:** [update workflow to euse OIDC for npm] ([0d9b986](https://github.com/NowaraJS/typed-event-emitter/commit/0d9b986))
+
+### ❤️ Contributors
+
+- Komiriko <komiriko@pm.me>
+
 ## v1.1.25
 
 [compare changes](https://github.com/NowaraJS/typed-event-emitter/compare/v1.1.24...v1.1.25)
