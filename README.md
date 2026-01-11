@@ -1,31 +1,28 @@
-# 🎯 NowaraJS - TypedEventEmitter
+# 🎯 NowaraJS Typed Event Emitter
+
+Working with `EventEmitter` in TypeScript is painful. You get zero autocomplete, typos in event names fail silently, and your listeners accept `any` because the types don't flow through. I built this to fix that.
+
+## Why this package?
+
+The goal is simple: **Make event-driven code actually type-safe.**
+
+This package wraps `EventEmitter` so that every event name and payload is validated at compile time. No more guessing, no more runtime surprises.
 
 ## 📌 Table of Contents
 
-- [🎯 TypedEventEmitter](#-typedeventemitter)
-	- [📌 Table of Contents](#-table-of-contents)
-	- [📝 Description](#-description)
-	- [✨ Features](#-features)
-	- [🔧 Installation](#-installation)
-	- [⚙️ Usage](#-usage)
-		- [Basic Usage](#basic-usage)
-		- [Advanced Usage](#advanced-usage)
-	- [📚 API Reference](#-api-reference)
-	- [⚖️ License](#-license)
-	- [📧 Contact](#-contact)
-
-## 📝 Description
-
-> A TypeScript library that provides a strongly typed event emitter for type-safe event handling.
-
-**TypedEventEmitter** extends `EventEmitter` with full TypeScript support, allowing developers to define custom events with specific payloads while ensuring complete type safety and reducing runtime errors in event-driven applications.
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [API Reference](#-api-reference)
+- [License](#-license)
+- [Contact](#-contact)
 
 ## ✨ Features
 
-- 🔒 **Type Safety**: Full TypeScript support with strongly typed event names and payloads
-- 🧩 **Generic Design**: Define custom event maps for your specific use cases
-- 🔄 **Familiar API**: Extends EventEmitter with the same familiar methods
-- 📦 **Zero Dependencies**: 0 dependencies
+- 🔒 **Full Type Safety**: Event names and payloads are checked at compile time.
+- 🧩 **Generic Design**: Define your own event maps for any use case.
+- 🔄 **Familiar API**: Same `on`, `emit`, `once` you already know.
+- 📦 **Zero Dependencies**: Pure TypeScript, nothing else.
 
 ## 🔧 Installation
 
@@ -37,70 +34,66 @@ bun add @nowarajs/typed-event-emitter
 
 ### Basic Usage
 
-```typescript
+Define an event map interface, then pass it to `TypedEventEmitter`. Everything flows from there.
+
+```ts
 import { TypedEventEmitter } from '@nowarajs/typed-event-emitter';
 
-// Define your event map
 interface MyEvents {
-	userLogin: [{ userId: string; timestamp: Date }];
-	userLogout: [{ userId: string }];
-	dataUpdate: [{ id: number; data: any }];
-	error: [Error];
+    userLogin: [{ userId: string; timestamp: Date }];
+    userLogout: [{ userId: string }];
+    error: [Error];
 }
 
-// Create a typed event emitter
 const emitter = new TypedEventEmitter<MyEvents>();
 
-// Type-safe event listening
+// `payload` is inferred as { userId: string; timestamp: Date }
 emitter.on('userLogin', (payload) => {
-	// payload is automatically typed as { userId: string; timestamp: Date }
-	console.log(`User ${payload.userId} logged in at ${payload.timestamp}`);
+    console.log(`User ${payload.userId} logged in at ${payload.timestamp}`);
 });
 
-// Type-safe event emission
+// TypeScript will yell if you pass the wrong shape
 emitter.emit('userLogin', { 
-	userId: 'user123', 
-	timestamp: new Date() 
+    userId: 'user123', 
+    timestamp: new Date() 
 });
 ```
 
-### Advanced Usage
+### Multiple Parameters
 
-```typescript
+Events can have multiple arguments, and each one is typed individually.
+
+```ts
 import { TypedEventEmitter } from '@nowarajs/typed-event-emitter';
 
-// Multiple parameters
 interface Events {
-	move: [x: number, y: number];
-	click: [button: 'left' | 'right', x: number, y: number];
-	keypress: [key: string, modifiers: string[]];
+    move: [x: number, y: number];
+    click: [button: 'left' | 'right', x: number, y: number];
 }
 
 const input = new TypedEventEmitter<Events>();
 
-// Multiple parameters are fully typed
+// x and y are both numbers
 input.on('move', (x, y) => {
-	console.log(`Mouse moved to ${x}, ${y}`);
+    console.log(`Mouse moved to ${x}, ${y}`);
 });
 
+// button is 'left' | 'right', x and y are numbers
 input.on('click', (button, x, y) => {
-	console.log(`${button} click at ${x}, ${y}`);
+    console.log(`${button} click at ${x}, ${y}`);
 });
 
-// Emit with multiple arguments
 input.emit('move', 100, 200);
 input.emit('click', 'left', 50, 75);
 ```
 
 ## 📚 API Reference
 
-You can find the complete API reference documentation for `TypedEventEmitter` at:
-
-- [Reference Documentation](https://nowarajs.github.io/typed-event-emitter/)
+Full docs: [nowarajs.github.io/typed-event-emitter](https://nowarajs.github.io/typed-event-emitter/)
 
 ## ⚖️ License
 
-Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
+MIT - Feel free to use it.
 
 ## 📧 Contact
 
